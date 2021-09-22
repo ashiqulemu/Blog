@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-primary {
+  border-color: black;
+  background-color: black !important;
+  color: white;
+}
+
+.btn-primary:hover {
+  border-color: black;
+}
+
+.linkSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background: #efefef;
+  padding: 0 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.linkSection ul {
+  margin: 0;
+  padding: 0;
+}
+
+.linkSection ul li {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .linkSection ul li {
+    margin: 7px 0;
+  }
+}
+
+.linkSection ul li a {
+  text-decoration: none;
+  background: black;
+  padding: 6px 13px;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 2px;
+}
+
+header .nav-item .nav-link {
+  color: grey;
+}
+
+header .nav-item .nav-link:hover {
+  color: #000;
+}
+
+header .nav-item .nav-link.active {
+  background: #000;
+  color: #fff;
+}
+
+.common-sections:target {
+  padding-top: 66px;
+}
+
+.common-sections {
+  min-height: 300px;
+}
+
+.horizontal-add {
+  margin: 15px 0;
+}
+
+.main .main-content {
+  position: relative;
+}
+
+.link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.link-container a {
+  width: 19%;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #00000020;
+  background: #f1f1f1;
+  -webkit-box-shadow: 1px 0px 3px 0px #e6e6e6;
+          box-shadow: 1px 0px 3px 0px #e6e6e6;
+}
+
+@media (max-width: 768px) {
+  .link-container a {
+    width: 23%;
+  }
+}
+
+@media (max-width: 600px) {
+  .link-container a {
+    width: 48% !important;
+  }
+}
+
+@media (max-width: 590px) {
+  .link-container a {
+    width: 95% !important;
+  }
+}
+
+.link-container a img {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  max-width: 90%;
+}
+
+.link-container a:hover {
+  -webkit-box-shadow: 1px 2px 5px 0px #35353533;
+          box-shadow: 1px 2px 5px 0px #35353533;
+}
+
+.link-container a:hover img {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+/*# sourceMappingURL=app.css.map */
