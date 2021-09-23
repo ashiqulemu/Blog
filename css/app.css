@@ -41,7 +41,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background: #394c53;
+  background: linear-gradient(45deg, #f73754, #ec7f8c, #ed4e66);
   padding: 0 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -89,23 +89,24 @@
 
 .linkSection ul li a {
   text-decoration: none;
-  background: #ed4e66;
-  padding: 6px 13px;
-  color: #ffffff;
+  background: #ff8a9b;
+  padding: 8px 13px;
+  color: #000000;
   text-align: center;
   text-transform: capitalize;
   margin: 8px 2px;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 5px 0;
 }
 
 .linkSection ul li a:hover {
+  color: #fcfcfc;
   -webkit-box-shadow: 1px 7px 12px #ff42667d;
           box-shadow: 1px 7px 12px #ff42667d;
 }
 
 header {
-  background-color: #394C53;
+  background: linear-gradient(45deg, #f73754, #ec7f8c, #ed4e66);
 }
 
 header .navbar-toggler .iconify {
@@ -130,12 +131,14 @@ header .nav-item .nav-link {
 }
 
 header .nav-item .nav-link:hover {
-  color: #0dcaf0 !important;
+  color: #ffeeba !important;
 }
 
 header .nav-item .nav-link.active {
-  background: #e05865;
+  background: #ff8ea1;
   color: white !important;
+  border-radius: 0 18px;
+  padding: 9px 17px;
 }
 
 .common-sections:target {
