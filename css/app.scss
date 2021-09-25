@@ -44,27 +44,29 @@
      @media(max-width:768px) {
        display: flex;
        flex-wrap: wrap;
-       justify-content: center;
+       justify-content: space-between;
        align-items: center;
      }
      li{
        display: inline-block;
        @media(max-width:768px){
         margin: 7px 0;
+        flex-basis:33%;
        }
        a{
-        text-decoration: none;
-        background: #ff8a9b;
+        text-decoration: none; 
         padding: 8px 13px;
-        color: #000000;
+        color: #ffffff;
         text-align: center;
         text-transform: capitalize;
         margin: 8px 2px;
-        font-size: 13px;
+        font-size: 15px;
         border-radius: 5px 0;
+        @media(max-width:768px){
+          font-size: 13px;
+         }
         &:hover{
-          color: rgb(252, 252, 252);
-              box-shadow:1px 7px 12px #ff42667d;
+          color: #ffeeba !important; 
        }
        }
      }
