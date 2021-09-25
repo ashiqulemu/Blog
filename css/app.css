@@ -79,6 +79,7 @@
 
 .linkSection ul li {
   display: inline-block;
+  margin: 3px 0;
 }
 
 @media (max-width: 768px) {

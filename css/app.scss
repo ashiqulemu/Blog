@@ -49,6 +49,7 @@
      }
      li{
        display: inline-block;
+       margin: 3px 0;
        @media(max-width:768px){
         margin: 7px 0;
         flex-basis:33%;
