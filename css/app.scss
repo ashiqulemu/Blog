@@ -137,6 +137,9 @@ header{
     border: 1px solid #00000020;
     background: #f1f1f1;
     box-shadow: 1px 0px 3px 0px #e6e6e6;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
      @media(max-width:600px){
       width: 47%!important ; 
@@ -144,7 +147,9 @@ header{
    
     img{
       transition: all 0.4s ease;
-      max-width: 90%;
+      height:30px;
+      width:100%;
+
     }
     &:hover{ 
       box-shadow: 1px 2px 5px 0px #35353533;
