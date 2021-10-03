@@ -174,9 +174,6 @@ header .nav-item .nav-link.active {
   display: -ms-flexbox;
   display: flex;
   padding: 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
